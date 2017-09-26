@@ -11,7 +11,7 @@ import {
 } from 'react-native';
  export default class Chat extends Component {
     static navigationOptions = {
-        title: '',
+        title: 'Chat',
         headerBackTitle: '返回',
         headerRight: <Button title='info'></Button>,
         headerStyle: {

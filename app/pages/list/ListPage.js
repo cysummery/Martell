@@ -1,4 +1,10 @@
 /**
+ * Created by cy on 2017/9/26.
+ */
+/**
+ * Created by cy on 2017/9/26.
+ */
+/**
  * Created by cy on 2017/9/25.
  */
 import React, { Component } from 'react';
@@ -10,10 +16,10 @@ import {
     Button
 } from 'react-native';
 
-export default class HomePage extends Component {
+export default class ListPage extends Component {
 
     static navigationOptions = {
-        title: 'Main',
+        title: '内容列表',
     };
 
     render() {
@@ -22,7 +28,7 @@ export default class HomePage extends Component {
         return (
             <View style={styles.container}>
                 <Text style={styles.welcome}>
-                    Welcome to React Native!
+                    This is ContentListPages!
                 </Text>
                 <Button
                     style={styles.instructions}
